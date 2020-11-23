@@ -10,7 +10,7 @@ if __name__ == "__main__":
             if content_file.find("[Aegisub Project Garbage]") != -1:
                 print("[CLEAR] " + str(p.name))
                 aegis_garbage = (content_file.split("[Aegisub Project Garbage]")[1]).split("[V4+ Styles]")[0]
-                new_content = (content_file.replace(aegis_garbage, "")).replace("", "")
+                new_content = (content_file.replace(aegis_garbage, "")).replace("[Aegisub Project Garbage]", "")
                 file_update = open(p, 'w', encoding='utf8', errors='ignore')
                 file_update.write(new_content)
                 file_update.close()
