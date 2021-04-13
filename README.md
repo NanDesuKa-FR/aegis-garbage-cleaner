@@ -1,5 +1,7 @@
 # Aegis Garbage Cleaner
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f859fba4c0fa429fbf539897bef6a441)](https://app.codacy.com/gh/NanDesuKa-FR/aegis-garbage-cleaner?utm_source=github.com&utm_medium=referral&utm_content=NanDesuKa-FR/aegis-garbage-cleaner&utm_campaign=Badge_Grade_Settings)
+
 #### This is a script able to clean the aegis garbage from subtitles in ".ass" formats in a second.
 
 # Dependence necessary:
